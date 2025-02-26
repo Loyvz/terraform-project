@@ -1,0 +1,9 @@
+# Archivos de Terraform a ignorar
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Claves privadas y variables
+*.pem
+terraform.tfvars
